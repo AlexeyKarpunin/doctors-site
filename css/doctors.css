@@ -1,0 +1,123 @@
+/*!css for doctors page only!*/
+
+
+.doctors__page {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.doctors__section{
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.doctors--header {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 48px;
+  padding: 72px 0 72px 0;
+}
+
+.doctor__content {
+  max-width: 518px;
+}
+
+.doctor__content--left {
+  margin-left: 52px;
+}
+
+.doctor__content--right {
+  margin-right: 52px;
+}
+
+.doctor__content h2 {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 36px;
+  color: #89316E;
+  padding-bottom: 16px;
+}
+.doctor__content h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 500;
+  color: #FF5F00;
+  padding-bottom: 16px;
+}
+
+.doctor__foto {
+  max-width: 398px;
+}
+
+.doctor__info {
+  max-width: 968px;
+  display: flex;
+}
+
+.doctor__info--right {
+  flex-direction: row-reverse;
+  margin-left: auto;
+}
+
+.education__item,
+.qualification__item {
+  font-size: 14px;
+  position: relative;
+  padding: 10px 0 16px 45px;
+  color: #5D5D61;
+  font-weight: normal;
+  white-space: nowrap;
+  line-height: 1.4;
+}
+
+.education__item span,
+.qualification__item span {
+  font-weight: bold;
+}
+
+.education__item::before,
+.qualification__item::before {
+  content: '';
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 7px;
+  background: url(../img/romb.png) no-repeat;
+}
+
+.education__list,
+.qualification__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #89316E;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*page DOCTOR meadi only*/
+
+@media screen and (max-width: 975px) {
+  .doctor__info {
+    display: block;
+  }
+  .doctor__foto {
+    margin: 0 auto;
+  }
+
+  .doctor__content {
+    margin: 0 auto;
+  }
+
+  .education__item,
+  .qualification__item {
+    white-space: normal;
+  }
+}
