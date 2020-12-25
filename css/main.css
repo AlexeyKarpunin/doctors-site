@@ -477,10 +477,11 @@ a {
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px 0;
-  background: url(../img/doctor_question.jpg) no-repeat 25% bottom;
+  background: url(../img/doctor-red-book.jpg) no-repeat 13% 93px;
   position: relative;
   min-height: 573px;
-  background-size: 26%;
+  background-size: 42%;
+
 }
 .in_block_question h2 {
   color: #89316e;
@@ -1335,8 +1336,12 @@ ul li:before {
 
 
 .contacts--footer {
-  margin-top: 35px;  
-  color: #fff
+  margin-top: 20px;
+  max-width: 210px;
+  color: #fff;
+  display: flex;
+  align-self: self-start;
+  flex-direction: column-reverse;
 }
 
 @media screen and (min-width: 1024px) {
@@ -1457,8 +1462,7 @@ ul li:before {
 }
 
 .navigation--footer {
-  max-width: 635px;
-  margin: auto
+  max-width: 820px;
 }
 
 .navigation__btn {
@@ -1475,7 +1479,7 @@ ul li:before {
 .navigation__list {
   padding: 0;
   list-style: none;
-  max-width: 820px;
+  max-width: 1170px;
   margin: auto;
   display: none;
   -webkit-box-orient: vertical;
@@ -1567,7 +1571,6 @@ ul li:before {
 
   .navigation__list--footer {
       max-width: none;
-      padding: 20px 0 0;
       flex-wrap: wrap;
       -webkit-box-pack: start;
       justify-content: flex-start
@@ -1583,10 +1586,12 @@ ul li:before {
   }
 
   .navigation__link--footer {
-      min-width: 150px;
+      min-width: 205px;
       -webkit-box-pack: start;
       justify-content: flex-start;
-      border: 0
+      border: 0;
+      display: block;
+      text-align: center;
   }
 
   .navigation__link--footer:hover {
@@ -1646,7 +1651,7 @@ main {
 
 .footer {
   background-color: #89316e;
-  padding: 10px 20px;
+  padding: 20px 20px;
   max-width: 1920px;
   margin: 0 auto;
 }
@@ -1667,14 +1672,17 @@ main {
 }
 
 .footer__logo {
-  min-width: 280px;
-  margin: 30px auto auto
+  min-width: 111px;
+  min-height: 100px;
 }
 
 .footer__copyright-box {
-  max-width: 1170px;
-  margin: auto;  
-  color: #fff
+    max-width: 1170px;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
 }
 
 .footer__copyright {
@@ -1691,13 +1699,12 @@ main {
 
 @media screen and (min-width:1024px) {
   .footer__content {
-      flex-wrap: nowrap
+      flex-wrap: nowrap;
+      justify-content: space-between;
   }
 
   .footer__logo {
-      min-width: 296px;
-      margin-top: 30px;
-      margin-right: 100px
+      
   }
 }
 
@@ -1723,5 +1730,10 @@ main {
 
   .contacts__tel {
     align-self: center;
+  }
+
+  .contacts--footer {
+    margin-left: 10px;
+    margin-top: 0;
   }
 }
