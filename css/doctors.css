@@ -38,6 +38,7 @@
   font-size: 36px;
   color: #89316E;
   padding-bottom: 16px;
+  white-space: nowrap;
 }
 .doctor__content h3 {
   margin: 0;
@@ -118,6 +119,10 @@
 
   .education__item,
   .qualification__item {
+    white-space: normal;
+  }
+
+  .doctor__content h2 {
     white-space: normal;
   }
 }
