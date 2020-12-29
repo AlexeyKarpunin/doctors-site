@@ -182,7 +182,7 @@ a {
 .banner__span {
   margin: 0;
   color: #fe6700;
-  font-weight: 900;
+  font-weight: 500;
   font-size: 48px;
 }
 
@@ -496,14 +496,14 @@ a {
 
 .banner2 {
   min-height: 594px;
-  max-width: 1920px;
-  margin: 0 auto;
-  padding: 130px 0 70px;
-  color: #89316e;
-  background-color: #f9f2dd;
-  background-image: url(../img/girl-index.jpg);
-  background-repeat: no-repeat;
-  background-position: 90% 50%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 130px 0 70px;
+    color: #89316e;
+    background-image: url(../img/background-women.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .in_block_contacts, .in_block_info, .in_block_rules {
@@ -563,7 +563,6 @@ a {
   color: #89316e;
   font-weight: 500;
   font-size: 30px;
-  font-weight: bold!important;
 }
 
 .in-our-doctor {
@@ -609,7 +608,7 @@ a {
   align-self: center;
 } 
 .description-equipment p {
-  font-size: 14px;
+  font-size: 18px;
   text-align: center;
 }
 .description-equipment h2 {
